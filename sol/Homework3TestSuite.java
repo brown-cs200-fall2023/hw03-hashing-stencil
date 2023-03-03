@@ -17,7 +17,6 @@ import static org.junit.Assert.fail;
 import static org.junit.Assert.assertThrows;
 import static org.junit.Assert.assertNotEquals;
 
-//TODO hangs due to HashTableTest
 
 /**
  * Test suite for hash tables
