@@ -7,7 +7,7 @@ import src.KeyNotFoundException;
 /**
  * A class that implements hash tables using chaining.
  */
-public class Chaining<K, V> implements IDictionary<K, V> {
+public class ChainingHashTable<K, V> implements IDictionary<K, V> {
 
     /**
      * A class that represents key-value pairs.
@@ -30,7 +30,7 @@ public class Chaining<K, V> implements IDictionary<K, V> {
      * Constructor for hash table
      * @param size Size of the hash table
      */
-    public Chaining(int size) {
+    public ChainingHashTable(int size) {
 
     }
 

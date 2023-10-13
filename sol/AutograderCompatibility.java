@@ -31,7 +31,7 @@ public class AutograderCompatibility {
 //        //-----------------------------
 //        //  Chaining
 //        //-----------------------------
-//        IDictionary<Integer, Integer> myHashTable = new Chaining<>(10);
+//        IDictionary<Integer, Integer> myHashTable = new ChainingHashTable<>(10);
 //        myHashTable.insert(1, 1);
 //        myHashTable.delete(1);
 //

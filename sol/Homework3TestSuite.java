@@ -24,12 +24,24 @@ import static org.junit.Assert.assertNotEquals;
 public class Homework3TestSuite {
 
     /**
+     * An example test with an assertion
+     */
+    @Test
+    public void testExample() {
+        Assert.assertEquals(2, 1 + 1);
+    }
+
+    /**
      *This example is here to show you how to input the filenames for your Grep
      * tests
      */
-    public static void testGrepExample() {
+    @Test
+    public void testGrepExample() {
         Grep grep = new Grep("grep-test-files/ozymandias.txt");
         Set<Integer> result = grep.lookup("traveller");
+
+        // TODO:  This test is missing an assertion
+        // if you want to keep this test, you should add one!
     }
 
 }
